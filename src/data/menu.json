@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Home",
+    "url": "/home",
+    "picto": "commute"
+  },
+  {
+    "label": "Map",
+    "url": "/map",
+    "picto": "commute"
+  },
+  {
+    "label": "Contact",
+    "url": "/contact",
+    "picto": "commute"
+  }
+]

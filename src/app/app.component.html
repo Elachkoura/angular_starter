@@ -1,0 +1,24 @@
+<mat-drawer-container class="example-container" autosize>
+  <!-- Menu Side nav content -->
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    wach !!
+  </mat-drawer>
+
+  <!-- Inner pages content -->
+  <div class="example-sidenav-content">
+    <!-- ToolBar Content -->
+    <mat-toolbar color="primary">
+      <!-- Toggle menu button -->
+      <button type="button" mat-button (click)="drawer.toggle()">
+        Toggle sidenav
+      </button>
+
+      <!--  ToolBar title -->
+      Angular Material 2 App
+    </mat-toolbar>
+
+
+    <router-outlet></router-outlet>
+  </div>
+
+</mat-drawer-container>
